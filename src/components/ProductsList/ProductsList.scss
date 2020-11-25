@@ -1,0 +1,12 @@
+@import "../../variables";
+
+.product-list-container {
+  width: 100%;
+  min-height: 400px;
+  //   background-color: red;
+  padding: 0 0 0 50px;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  flex-wrap: wrap;
+}

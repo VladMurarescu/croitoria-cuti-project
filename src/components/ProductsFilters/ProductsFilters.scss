@@ -1,0 +1,127 @@
+@import "../../variables";
+
+.products-filters-container {
+  width: 100%;
+  min-height: 100px;
+  // background-color: red;
+  margin-bottom: 50px;
+}
+.form-group {
+  padding-left: 50px;
+  width: 100%;
+
+  min-height: 100px;
+  display: flex;
+  align-items: flex-start;
+  flex-wrap: wrap;
+  // background-color: blue;
+  label {
+    font-family: $titleFont;
+    font-size: 20px;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+  }
+
+  .products-search {
+    display: flex;
+    // background-color: red;
+    align-items: flex-start;
+    justify-content: space-between;
+    flex-direction: column;
+    width: 50%;
+    min-width: 210px;
+    min-height: 100px;
+    padding-bottom: 20px;
+    // margin-right: 50px;
+    margin-bottom: 50px;
+    .search-input {
+      display: flex;
+      align-items: flex-start;
+      input {
+        width: 150px;
+        height: 30px;
+        border: none;
+        font-family: $normalFont;
+        font-size: 12px;
+        letter-spacing: 1px;
+        outline: none;
+        border: 1px solid grey;
+        box-shadow: 0 0.5px 0.5px 0.5px gray;
+        padding-left: 5px;
+      }
+
+      button {
+        height: 30px;
+        width: 40px;
+        background-color: $buttonColor;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        outline: none;
+        cursor: pointer;
+        border: 1px solid gray;
+        box-shadow: 0 0.5px 0.5px 0.5px gray;
+        &:hover {
+          background-color: $buttonContrastColor;
+          border: 1px solid gray;
+        }
+        .search-icon {
+          font-size: 17px;
+          color: $secondContrastColor;
+        }
+      }
+    }
+    @media screen and (max-width: 235px) {
+      .search-input {
+        input {
+          width: 110px;
+          font-size: 8px;
+        }
+      }
+    }
+  }
+  @media screen and (max-width: 235px) {
+    .products-search {
+      min-width: 150px;
+    }
+  }
+  .products-category {
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    flex-direction: column;
+    width: 50%;
+    min-width: 210px;
+    min-height: 100px;
+    padding-bottom: 20px;
+    // background-color: red;
+    select {
+      width: 150px;
+      height: 30px;
+      border: none;
+      font-family: $normalFont;
+      font-size: 12px;
+      letter-spacing: 1px;
+      outline: none;
+      border: 1px solid grey;
+      box-shadow: 0 0.5px 0.5px 0.5px gray;
+      padding-left: 5px;
+    }
+    @media screen and (max-width: 235px) {
+      select {
+        width: 110px;
+      }
+    }
+  }
+
+  @media screen and (max-width: 235px) {
+    .products-category {
+      min-width: 150px;
+    }
+  }
+}
+@media screen and (max-width: 410px) {
+  .form-group {
+    padding-left: 20px;
+  }
+}

@@ -1,0 +1,41 @@
+.about-us-top-container {
+  width: 100%;
+  height: 400px;
+  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.6)), to(rgba(0, 0, 0, 0.6))), url("https://images.pexels.com/photos/325876/pexels-photo-325876.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940");
+  background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url("https://images.pexels.com/photos/325876/pexels-photo-325876.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940");
+  min-height: 100%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center 25%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.about-us-top-container p {
+  font-family: "Roboto", sans-serif;
+  font-size: 40px;
+  letter-spacing: 1px;
+  text-align: center;
+  color: #dcdbdb;
+  padding: 0 20px;
+}
+
+@media screen and (max-width: 599px) {
+  .about-us-top-container p {
+    font-size: 30px;
+  }
+}
+
+@media screen and (max-width: 300px) {
+  .about-us-top-container p {
+    font-size: 23px;
+  }
+}
+/*# sourceMappingURL=AboutUsTop.css.map */

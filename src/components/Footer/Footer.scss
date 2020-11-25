@@ -1,0 +1,64 @@
+@import "../../variables";
+footer {
+  background-color: $mainColor;
+  color: $firstContrastColor;
+
+  max-width: 1366px;
+  margin: auto;
+  min-height: 170px;
+  display: flex;
+  justify-content: space-between;
+  padding: 30px 50px;
+  flex-wrap: wrap;
+  letter-spacing: 1px;
+  line-height: 140%;
+  .nav-col {
+    width: 370px;
+    min-width: 100px;
+    margin-right: 5px;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 15px;
+    h4 {
+      margin-bottom: 10px;
+    }
+    @media screen and (max-width: 285px) {
+      li {
+        font-size: 12px;
+      }
+    }
+  }
+
+  .nav-social-icons {
+    display: flex;
+    width: 150px;
+    flex-direction: column;
+    justify-content: flex-start;
+    margin-bottom: 15px;
+
+    h4 {
+      margin-bottom: 10px;
+    }
+    .icons {
+      display: flex;
+      justify-content: space-between;
+
+      padding: 0 50px 0 0;
+      .icon {
+        text-decoration: none;
+        color: $firstContrastColor;
+        font-size: 30px;
+        cursor: pointer;
+        &:hover {
+          transform: scale(1.2);
+          transition: transform 0.4s;
+        }
+      }
+    }
+  }
+}
+@media screen and (max-width: 410px) {
+  footer {
+    padding: 30px 20px;
+  }
+}

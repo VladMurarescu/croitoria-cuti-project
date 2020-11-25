@@ -1,0 +1,23 @@
+@import "../../variables";
+.title {
+  margin: 50px 0;
+  width: 100%;
+  padding: 0 50px;
+  font-size: 2.1rem;
+  font-family: $titleFont;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  color: $firstContrastColor;
+  // background-color: red;
+  text-align: center;
+}
+@media screen and (max-width: 486px) {
+  .title {
+    font-size: 2rem;
+  }
+}
+@media screen and (max-width: 428px) {
+  .title {
+    font-size: 1.6rem;
+  }
+}

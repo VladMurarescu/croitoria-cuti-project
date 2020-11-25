@@ -1,0 +1,166 @@
+.products-filters-container {
+  width: 100%;
+  min-height: 100px;
+  margin-bottom: 50px;
+}
+
+.form-group {
+  padding-left: 50px;
+  width: 100%;
+  min-height: 100px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+.form-group label {
+  font-family: "Roboto", sans-serif;
+  font-size: 20px;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+}
+
+.form-group .products-search {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  width: 50%;
+  min-width: 210px;
+  min-height: 100px;
+  padding-bottom: 20px;
+  margin-bottom: 50px;
+}
+
+.form-group .products-search .search-input {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+}
+
+.form-group .products-search .search-input input {
+  width: 150px;
+  height: 30px;
+  border: none;
+  font-family: "Montserrat", sans-serif;
+  font-size: 12px;
+  letter-spacing: 1px;
+  outline: none;
+  border: 1px solid grey;
+  -webkit-box-shadow: 0 0.5px 0.5px 0.5px gray;
+          box-shadow: 0 0.5px 0.5px 0.5px gray;
+  padding-left: 5px;
+}
+
+.form-group .products-search .search-input button {
+  height: 30px;
+  width: 40px;
+  background-color: #d0afd5;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  outline: none;
+  cursor: pointer;
+  border: 1px solid gray;
+  -webkit-box-shadow: 0 0.5px 0.5px 0.5px gray;
+          box-shadow: 0 0.5px 0.5px 0.5px gray;
+}
+
+.form-group .products-search .search-input button:hover {
+  background-color: #bfb1c1;
+  border: 1px solid gray;
+}
+
+.form-group .products-search .search-input button .search-icon {
+  font-size: 17px;
+  color: #575a5e;
+}
+
+@media screen and (max-width: 235px) {
+  .form-group .products-search .search-input input {
+    width: 110px;
+    font-size: 8px;
+  }
+}
+
+@media screen and (max-width: 235px) {
+  .form-group .products-search {
+    min-width: 150px;
+  }
+}
+
+.form-group .products-category {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  width: 50%;
+  min-width: 210px;
+  min-height: 100px;
+  padding-bottom: 20px;
+}
+
+.form-group .products-category select {
+  width: 150px;
+  height: 30px;
+  border: none;
+  font-family: "Montserrat", sans-serif;
+  font-size: 12px;
+  letter-spacing: 1px;
+  outline: none;
+  border: 1px solid grey;
+  -webkit-box-shadow: 0 0.5px 0.5px 0.5px gray;
+          box-shadow: 0 0.5px 0.5px 0.5px gray;
+  padding-left: 5px;
+}
+
+@media screen and (max-width: 235px) {
+  .form-group .products-category select {
+    width: 110px;
+  }
+}
+
+@media screen and (max-width: 235px) {
+  .form-group .products-category {
+    min-width: 150px;
+  }
+}
+
+@media screen and (max-width: 410px) {
+  .form-group {
+    padding-left: 20px;
+  }
+}
+/*# sourceMappingURL=ProductsFilters.css.map */

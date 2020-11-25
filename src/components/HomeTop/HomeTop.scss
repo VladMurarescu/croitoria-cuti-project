@@ -1,0 +1,57 @@
+@import "../../variables";
+.home-top-container {
+  width: 100%;
+  height: 400px;
+  background-image: linear-gradient(
+      to bottom,
+      rgba(0, 0, 0, 0.6),
+      rgba(0, 0, 0, 0.6)
+    ),
+    url("https://images.pexels.com/photos/325876/pexels-photo-325876.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940");
+  min-height: 100%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center 25%;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  .home-title {
+    font-family: $titleFont;
+    font-size: 40px;
+    letter-spacing: 1px;
+    color: $mainColor;
+    margin-top: 100px;
+    margin-bottom: 50px;
+    text-align: center;
+    padding: 0 20px;
+  }
+  @media screen and (max-width: 599px) {
+    .home-title {
+      font-size: 30px;
+    }
+  }
+  @media screen and (max-width: 300px) {
+    .home-title {
+      font-size: 23px;
+    }
+  }
+  .home-button {
+    width: 140px;
+    height: 50px;
+    background-color: $buttonColor;
+    color: $firstContrastColor;
+    border: none;
+    border-radius: 10px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 20px 0;
+    font-family: $titleFont;
+    letter-spacing: 1px;
+    &:hover {
+      background-color: $buttonContrastColor;
+    }
+  }
+}

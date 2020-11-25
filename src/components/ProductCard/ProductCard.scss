@@ -1,0 +1,53 @@
+@import "../../variables";
+
+.product-card-container {
+  width: 230px;
+  height: 350px;
+  //   background-color: blue;
+  margin: 0 50px 50px 0;
+  box-shadow: 0 4px 7px 1px gray;
+  cursor: pointer;
+  &:hover {
+    transform: scale(1.1);
+    transition: transform 0.3s;
+  }
+  .product-photo {
+    width: 100%;
+    height: 75%;
+    // background-color: yellow;
+    img {
+      width: 100%;
+      height: 100%;
+    }
+  }
+  .product-info {
+    width: 100%;
+    height: 25%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: white;
+    h4 {
+      font-family: $titleFont;
+      color: $firstContrastColor;
+      letter-spacing: 1px;
+      margin-bottom: 10px;
+      text-align: center;
+    }
+    h5 {
+      font-family: $normalFont;
+      color: $secondContrastColor;
+      letter-spacing: 1px;
+      text-align: center;
+    }
+    @media screen and (max-width: 338px) {
+      h4 {
+        font-size: 15px;
+      }
+      h5 {
+        font-size: 11px;
+      }
+    }
+  }
+}

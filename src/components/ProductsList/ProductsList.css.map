@@ -1,0 +1,10 @@
+{
+    "version": 3,
+    "mappings": "AAEA,AAAA,uBAAuB,CAAC;EACtB,KAAK,EAAE,IAAI;EACX,UAAU,EAAE,KAAK;EAEjB,OAAO,EAAE,UAAU;EACnB,OAAO,EAAE,IAAI;EACb,eAAe,EAAE,aAAa;EAC9B,WAAW,EAAE,UAAU;EACvB,SAAS,EAAE,IAAI;CAChB",
+    "sources": [
+        "ProductsList.scss",
+        "../../_variables.scss"
+    ],
+    "names": [],
+    "file": "ProductsList.css"
+}

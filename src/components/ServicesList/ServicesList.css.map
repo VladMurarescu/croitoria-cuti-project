@@ -1,0 +1,10 @@
+{
+    "version": 3,
+    "mappings": "AACA,AAAA,iBAAiB,CAAC;EAChB,eAAe,EAAE,KAAK;EACtB,OAAO,EAAE,UAAU;CAEpB;;AACD,AAAA,YAAY,CAAC;EACX,KAAK,EAAE,IAAI;EACX,SAAS,EAAE,MAAM;EACjB,MAAM,EAAE,IAAI;EACZ,OAAO,EAAE,MAAM;EACf,QAAQ,EAAE,MAAM;CACjB;;AAED,AAAA,mBAAmB,CAAC;EAClB,OAAO,EAAE,IAAI;EAEb,SAAS,EAAE,IAAI;EACf,eAAe,EAAE,MAAM;CACxB",
+    "sources": [
+        "ServicesList.scss",
+        "../../_variables.scss"
+    ],
+    "names": [],
+    "file": "ServicesList.css"
+}
