@@ -28,7 +28,6 @@ footer .nav-col {
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
-  margin-bottom: 15px;
 }
 
 footer .nav-col h4 {
@@ -38,6 +37,12 @@ footer .nav-col h4 {
 @media screen and (max-width: 285px) {
   footer .nav-col li {
     font-size: 12px;
+  }
+}
+
+@media screen and (max-width: 1013px) {
+  footer .nav-col {
+    margin-bottom: 15px;
   }
 }
 

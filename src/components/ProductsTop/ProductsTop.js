@@ -3,7 +3,10 @@ import "./ProductsTop.css";
 const ProductsTop = () => {
   return (
     <div className="product-top-container">
-      <p>Loream inotosada ascmnasc sauda ascmnasc saudaasauda</p>
+      <p>
+        Alege o ținută în care să te simți confortabil și în largul tău, restul
+        vine de la sine!
+      </p>
     </div>
   );
 };

@@ -6,7 +6,12 @@
   //   background-color: red;
   padding: 0 0 0 50px;
   display: flex;
-  justify-content: space-between;
+  justify-content: space-around;
   align-items: flex-start;
   flex-wrap: wrap;
+}
+@media screen and (max-width: 607px) {
+  .product-list-container {
+    justify-content: center;
+  }
 }

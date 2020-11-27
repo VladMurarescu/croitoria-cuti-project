@@ -6,6 +6,7 @@ import AboutUs from "./pages/AboutUs/AboutUs";
 import Navbar from "./components/Navbar/Navbar";
 import Footer from "./components/Footer/Footer";
 import ErrorComponent from "./components/ErrorComponent/ErrorComponent";
+
 function App() {
   return (
     <div className="App">

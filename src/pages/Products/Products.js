@@ -9,7 +9,7 @@ const Products = () => {
   return (
     <Wrapper>
       <ProductsTop />
-      <Title title="Section Title" />
+      <Title title="Inspiră-te din creațiile noastre" />
       <ProductsFilters />
       <ProductsList />
     </Wrapper>

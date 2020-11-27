@@ -14,4 +14,12 @@
       flex-wrap: wrap;
   padding: 0 0 50px 50px;
 }
+
+@media screen and (max-width: 607px) {
+  .info-list-container {
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+}
 /*# sourceMappingURL=InfosList.css.map */

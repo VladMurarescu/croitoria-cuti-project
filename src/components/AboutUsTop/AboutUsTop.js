@@ -3,7 +3,7 @@ import "./AboutUsTop.css";
 const AboutUsTop = () => {
   return (
     <div className="about-us-top-container">
-      <p>Loream inotosada ascmnasc sauda ascmnasc saudaasauda</p>
+      <p>O ținută simplă îți poate aduce succesul!</p>
     </div>
   );
 };

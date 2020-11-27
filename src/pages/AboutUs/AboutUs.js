@@ -8,24 +8,20 @@ const AboutUs = () => {
   return (
     <Wrapper>
       <AboutUsTop />
-      <Title title="section title" />
+      <Title title="Despre noi" />
       <div className="general-description">
         <p>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Repudiandae
-          officiis, aliquam velit nesciunt et rem porro harum at minus nemo?
-          Dolores unde reprehenderit fugit voluptates sequi illo molestiae quis
-          officiis dolorem nemo fuga magnam perferendis recusandae nisi
-          laboriosam quisquam totam blanditiis repudiandae, minima porro,
-          aperiam cupiditate. Explicabo facere qui ea voluptates earum illum,
-          vitae fuga blanditiis quos labore autem, odit aperiam modi, sunt
-          possimus delectus. Voluptatibus eos provident explicabo sapiente.
-          Laudantium, exercitationem libero rerum, veniam iure voluptatibus
-          maxime blanditiis corrupti non et repellat maiores. Cupiditate numquam
-          voluptate suscipit, assumenda reprehenderit, dicta quasi facilis, non
-          ratione minus maxime fugiat quod perspiciatis?
+          Croitoria CUTI oferă cele mai bune servicii, utilizând mașini
+          performante și materiale de cea mai bună calitate. Firma noastră
+          dispune de un personal profesionist, înțelegător și cel mai important,
+          care se gândește la nevoile / sugestiile / preferințele clienților.
+          Croitoria reprezintă un spațiu unde creativitatea este evidențiată
+          pentru realizarea costumelor dorite. De asemenea, îmbrăcămintea poate
+          fi personalizată, modificată sau retușată, în funcție de cerințele
+          clienților.
         </p>
       </div>
-      <Title title="section title" />
+      <Title title="Ce vei găsi aici" />
       <InfosList />
     </Wrapper>
   );
