@@ -28,11 +28,11 @@
     border-radius: 15px;
   }
 }
-.service-icon i {
-  line-height: 70px;
-  transform: rotate(-45deg);
-  font-size: 26px;
-}
+// .service-icon i {
+//   line-height: 70px;
+//   transform: rotate(-45deg);
+//   font-size: 26px;
+// }
 // .service-box:hover .service-icon {
 //   background: $buttonColor;
 //   color: white;
@@ -40,7 +40,7 @@
 .service-title {
   font-size: $titleFont;
   color: $firstContrastColor;
-  margin: 3px 0;
+  margin: 10px 0;
   letter-spacing: 1px;
   font-size: 20px;
 }

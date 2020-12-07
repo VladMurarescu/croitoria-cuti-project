@@ -22,17 +22,10 @@
   border-radius: 15px;
 }
 
-.service-icon i {
-  line-height: 70px;
-  -webkit-transform: rotate(-45deg);
-          transform: rotate(-45deg);
-  font-size: 26px;
-}
-
 .service-title {
   font-size: "Roboto", sans-serif;
   color: #262525;
-  margin: 3px 0;
+  margin: 10px 0;
   letter-spacing: 1px;
   font-size: 20px;
 }
