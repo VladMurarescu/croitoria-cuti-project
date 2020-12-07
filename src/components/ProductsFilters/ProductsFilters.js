@@ -28,7 +28,7 @@ const ProductsFilters = () => {
   return (
     <div className="products-filters-container">
       <form className="form-group">
-        <div className="products-search">
+        {/* <div className="products-search">
           <label htmlFor="productInput">Produs</label>
           <div className="search-input">
             <input
@@ -43,7 +43,7 @@ const ProductsFilters = () => {
               <i className="search-icon fas fa-search"></i>
             </button>
           </div>
-        </div>
+        </div> */}
         <div className="products-category">
           <label htmlFor="productsSelect">Categorie</label>
           <select

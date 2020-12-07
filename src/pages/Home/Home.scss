@@ -1,0 +1,21 @@
+@import "../../variables";
+
+.home-img {
+  //   background-color: red;
+  width: 100%;
+  height: 500px;
+  img {
+    width: 100%;
+    height: 100%;
+  }
+}
+@media screen and (max-width: 394px) {
+  .home-img {
+    height: 300px;
+  }
+}
+@media screen and (max-width: 302px) {
+  .home-img {
+    height: 200px;
+  }
+}

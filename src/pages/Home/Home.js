@@ -9,6 +9,12 @@ const Home = () => {
   return (
     <Wrapper>
       <HomeTop />
+      <div className="home-img">
+        <img
+          src="https://res.cloudinary.com/dphkz2umf/image/upload/v1607375226/logo_4add8f9a69.jpg"
+          alt="img"
+        />
+      </div>
       <Title title="Serviciile noastre" />
       <ServicesList />
     </Wrapper>

@@ -4,7 +4,8 @@ const ServicesCard = (props) => {
   return (
     <div className="service-box">
       <div className="service-icon">
-        <i className={props.icon}></i>
+        {/* <i className={props.icon}></i> */}
+        <img src={props.photo} alt="img" />
       </div>
       <div className="service-title">{props.title}</div>
       <div className="service-desc">{props.description}</div>

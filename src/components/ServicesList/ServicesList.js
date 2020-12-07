@@ -19,6 +19,7 @@ const ServicesList = () => {
               title={service.title}
               icon={service.icon}
               description={service.description}
+              photo={service.photo}
             />
           ))}
           {/* <ServiceCard />

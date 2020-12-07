@@ -5,32 +5,42 @@
   padding: 10px 10px 50px 10px;
   text-align: center;
   color: $secondContrastColor;
-  cursor: pointer;
+  // cursor: pointer;
 }
 
 .service-icon {
   display: inline-block;
-  width: 70px;
-  height: 70px;
-  border: 3px solid $secondContrastColor;
+  width: 170px;
+  height: 150px;
+  box-shadow: 0 4px 7px 1px gray;
+  border-radius: 15px;
+  // border: 3px solid $secondContrastColor;
+
   color: $secondContrastColor;
-  transform: rotate(45deg);
-  margin-bottom: 30px;
-  margin-top: 16px;
-  transition: 0.3s linear;
+  // transform: rotate(45deg);
+  // margin-bottom: 30px;
+  // margin-top: 16px;
+  // transition: 0.3s linear;
+  // background-color: red;
+  img {
+    width: 100%;
+    height: 100%;
+    border-radius: 15px;
+  }
 }
 .service-icon i {
   line-height: 70px;
   transform: rotate(-45deg);
   font-size: 26px;
 }
-.service-box:hover .service-icon {
-  background: $buttonColor;
-  color: white;
-}
+// .service-box:hover .service-icon {
+//   background: $buttonColor;
+//   color: white;
+// }
 .service-title {
   font-size: $titleFont;
   color: $firstContrastColor;
+  margin: 3px 0;
   letter-spacing: 1px;
   font-size: 20px;
 }
