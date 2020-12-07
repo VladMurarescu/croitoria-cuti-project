@@ -4,6 +4,7 @@
   width: 240px;
   height: 350px;
   // background-color: aqua;
+  cursor: pointer;
   margin: 0 50px 50px 0;
   box-shadow: 0 4px 7px 1px gray;
   &:hover {
@@ -25,8 +26,9 @@
     align-items: center;
     flex-direction: column;
     width: 100%;
-    // background-color: rgb(243, 241, 241);
-    background-color: $mainColor;
+
+    background-color: rgb(243, 241, 241);
+    // background-color: $mainColor;
     height: 50%;
     padding: 0 10px;
 
